@@ -27,9 +27,10 @@ public class DashboardController {
     }
 
     @FXML
+    //To refresh the list
     private void onRefresh() {
         refreshNumbers();
-        lblStatus.setText("✅ Refreshed");
+        lblStatus.setText("Refreshed");
     }
 
     @FXML
