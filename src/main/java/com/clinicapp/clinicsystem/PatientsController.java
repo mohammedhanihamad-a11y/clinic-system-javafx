@@ -45,7 +45,7 @@ public class PatientsController {
 
         // ===== Load from JSON =====
         data.setAll(PatientStore.loadAll());
-
+//To fill demo data
         // Seed demo once (first run)
        // if (data.isEmpty()) {
          //   PatientStore.seedDemoData();
