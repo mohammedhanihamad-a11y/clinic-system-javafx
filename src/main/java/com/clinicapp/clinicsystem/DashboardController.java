@@ -2,7 +2,8 @@ package com.clinicapp.clinicsystem;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-
+import javafx.scene.control.Alert;
+import javafx.stage.Stage;
 import java.util.List;
 
 public class DashboardController {
@@ -32,6 +33,8 @@ public class DashboardController {
         refreshNumbers();
         lblStatus.setText("Refreshed");
     }
+//Add here
+
 
     @FXML
     private void onLogout() {

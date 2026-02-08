@@ -32,7 +32,13 @@ public class LoginController {
             lblStatus.setStyle("-fx-font-weight: bold; -fx-text-fill: #1a7f37;");
             lblStatus.setText("Login Success");
             HelloApplication.showDashboard();
-        } else {
+        }
+        if ("hamida".equals(u) && "hamida123".equals(p)) {
+            lblStatus.setStyle("-fx-font-weight: bold; -fx-text-fill: #1a7f37;");
+            lblStatus.setText("Login Success");
+            HelloApplication.showDashboard();
+        }
+        else {
             lblStatus.setStyle("-fx-font-weight: bold; -fx-text-fill: #cc0000;");
             lblStatus.setText("Wrong username or password");
         }

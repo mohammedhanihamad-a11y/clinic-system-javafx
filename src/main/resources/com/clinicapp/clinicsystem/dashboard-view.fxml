@@ -88,6 +88,8 @@
                         style="-fx-background-radius: 10; -fx-font-weight: bold; -fx-padding: 10 14;"/>
                 <Button text="Refresh" onAction="#onRefresh"
                         style="-fx-background-radius: 10; -fx-padding: 10 14;"/>
+                <!-- Add here -->
+
                 <Region HBox.hgrow="ALWAYS"/>
                 <Button text="Logout" onAction="#onLogout"
                         style="-fx-background-radius: 10; -fx-padding: 10 14;"/>
